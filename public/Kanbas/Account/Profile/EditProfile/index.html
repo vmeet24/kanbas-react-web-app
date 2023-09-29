@@ -1,57 +1,76 @@
-<form action="/Kanbas/Account/Profile/screen.html">
-    <h2>
-        Meet Vora
-    </h2>
-    <label for="name-edit">Name:*</label>
-    <input name="full-name" id="name-edit" type="text" value="Meet Vora">
-    <label for="pronouns-edit">Pronouns:</label>
-    <select id="pronouns-edit">
-        <option value="VAL1">he/him</option>
-        <option value="VAL2" selected>
-            None
-        </option>
-        <option value="VAL3">she/her</option>
-    </select>
-    <br>
-    <br>
-    <label for="title-edit">Title:</label>
-    <input id="title-edit" type="text" value="">
-    <h3>Contact</h3>
-    <p>
-        <a href="https://www.linkedin.com/in/vmeet24/">LinkedIn</a>
-    </p>
-    <h3>Biography</h3>
-    <p>
-        Optimized, responsible, and committed software engineer and a computer science grad student.
-    </p>
-    <textarea
-        id=""
-        name="biography"
-        rows="3"
-        cols="100"
-    >Optimized, responsible, and committed software engineer and a computer science grad student.</textarea>
-    <h3>Links</h3>
-    <ul>
-        <li>
-            <p>
-                <a href="https://vmeet24.github.io/">Portfolio</a>
-            </p>
-        </li>
-    </ul>
-    <h3>
-        <label for="">Title URL</label>
-    </h3>
-    <br>
-    <input type="text" value="GitHub">
-    ->
-    <input type="text" value="https://vmeet24.github.io/">
-    <a href="#">Remove</a>
-    <br>
-    <button>Add another link</button>
-    <br>
-    <button>Cancel</button>
-    <button>Save Profile</button>
-    <br>
-    <button>Edit Profile</button>
-    <button>Cancel Editing</button>
-</form>
+<link rel="stylesheet" href="/vendors/bootstrap/css/bootstrap.min.css">
+<div class="wd-edit-profile-primary">
+    <form class="row g-3" action="/Kanbas/Account/Profile/screen.html">
+        <h2>
+            Meet Vora
+        </h2>
+        <div class="col-md-8">
+            <label for="name-edit" class="form-label">Name:*</label>
+            <input
+                id="name-edit"
+                class="form-control"
+                type="text"
+                value="Meet Vora"
+            >
+        </div>
+        <div class="col-5">
+            <label for="pronouns-edit" class="form-label">Pronouns:</label>
+            <select id="pronouns-edit" class="form-select">
+                <option value="VAL1">he/him</option>
+                <option value="VAL2" selected>
+                    None
+                </option>
+                <option value="VAL3">she/her</option>
+            </select>
+        </div>
+        <div class="col-8">
+            <label for="title-edit" class="form-label">Title:</label>
+            <input
+                id="title-edit"
+                class="form-control"
+                type="text"
+                value=""
+            >
+        </div>
+        <div class="col-md-8">
+            <label for="contact" class="form-label">Contact</label>
+            <input
+                type="text"
+                class="form-control"
+                id="contact"
+                disabled
+                value="No registered services, you can add some on the settings page."
+            >
+        </div>
+        <div class="col-md-8">
+            <label for="biography" class="form-label">Biography</label>
+            <textarea
+                id="biography"
+                name="biography"
+                rows="3"
+                cols="100"
+                class="form-control"
+            >Optimized, responsible, and committed software engineer and a computer science grad student.</textarea>
+        </div>
+        <div class="row g-3">
+            <div class="col-md-3">
+                <label for="inputZip" class="form-label">Links</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-md-3">
+                <label for="inputZip" class="form-label">URL</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-light">Cancel</button>
+            <button type="submit" class="btn btn-danger">Save Profile</button>
+        </div>
+    </form>
+</div>
+<div class="wd-edit-profile-secondary">
+    <button>
+        <i class="far fa-edit"></i>
+        Cancel Editing
+    </button>
+</div>

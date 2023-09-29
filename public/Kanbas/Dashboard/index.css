@@ -1,0 +1,8 @@
+.wd-dashboard-grid {
+    padding-left: 20px;
+    width: 1300px;
+}
+
+.wd-dashboard-grid .col {
+    width: 300px;
+}

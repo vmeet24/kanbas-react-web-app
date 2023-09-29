@@ -1,0 +1,9 @@
+.wd-edit-profile {
+    display: flex;
+    justify-content: space-between;
+    /* flex: 3; */
+}
+
+.wd-edit-profile-secondary {
+    margin: 50px;
+}
