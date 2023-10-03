@@ -1,76 +1,59 @@
 <link rel="stylesheet" href="/vendors/bootstrap/css/bootstrap.min.css">
-<div class="wd-edit-profile-primary">
-    <form class="row g-3" action="/Kanbas/Account/Profile/screen.html">
-        <h2>
-            Meet Vora
-        </h2>
-        <div class="col-md-8">
-            <label for="name-edit" class="form-label">Name:*</label>
-            <input
-                id="name-edit"
-                class="form-control"
-                type="text"
-                value="Meet Vora"
-            >
-        </div>
-        <div class="col-5">
-            <label for="pronouns-edit" class="form-label">Pronouns:</label>
-            <select id="pronouns-edit" class="form-select">
-                <option value="VAL1">he/him</option>
-                <option value="VAL2" selected>
-                    None
-                </option>
-                <option value="VAL3">she/her</option>
-            </select>
-        </div>
-        <div class="col-8">
-            <label for="title-edit" class="form-label">Title:</label>
-            <input
-                id="title-edit"
-                class="form-control"
-                type="text"
-                value=""
-            >
-        </div>
-        <div class="col-md-8">
-            <label for="contact" class="form-label">Contact</label>
-            <input
-                type="text"
-                class="form-control"
-                id="contact"
-                disabled
-                value="No registered services, you can add some on the settings page."
-            >
-        </div>
-        <div class="col-md-8">
-            <label for="biography" class="form-label">Biography</label>
-            <textarea
-                id="biography"
-                name="biography"
-                rows="3"
-                cols="100"
-                class="form-control"
-            >Optimized, responsible, and committed software engineer and a computer science grad student.</textarea>
-        </div>
-        <div class="row g-3">
-            <div class="col-md-3">
-                <label for="inputZip" class="form-label">Links</label>
-                <input type="text" class="form-control" id="inputZip">
+<div class="float-none wd-edit-profile">
+    <div class="float-end">
+        <button onclick="location.href='/Kanbas/Account/Profile/screen.html'">
+            <i class="far fa-edit"></i>
+            Cancel Editing
+        </button>
+    </div>
+    <div class="float-start wd-edit-profile-form">
+        <form class="row g-3" action="/Kanbas/Account/Profile/screen.html">
+            <i class="fas fa-user-circle fa-lg wd-profile-icon"></i>
+            <h2>
+                Meet Vora
+            </h2>
+            <div class="col-md-8">
+                <label for="name-edit" class="form-label">Name:*</label>
+                <input id="name-edit" class="form-control" type="text" value="Meet Vora">
             </div>
-            <div class="col-md-3">
-                <label for="inputZip" class="form-label">URL</label>
-                <input type="text" class="form-control" id="inputZip">
+            <div class="col-5">
+                <label for="pronouns-edit" class="form-label">Pronouns:</label>
+                <select id="pronouns-edit" class="form-select">
+                    <option value="VAL1">he/him</option>
+                    <option value="VAL2" selected>
+                        None
+                    </option>
+                    <option value="VAL3">she/her</option>
+                </select>
             </div>
-        </div>
-        <div class="col-12">
-            <button type="submit" class="btn btn-light">Cancel</button>
-            <button type="submit" class="btn btn-danger">Save Profile</button>
-        </div>
-    </form>
-</div>
-<div class="wd-edit-profile-secondary">
-    <button>
-        <i class="far fa-edit"></i>
-        Cancel Editing
-    </button>
+            <div class="col-8">
+                <label for="title-edit" class="form-label">Title:</label>
+                <input id="title-edit" class="form-control" type="text" value="">
+            </div>
+            <div class="col-md-8">
+                <label for="contact" class="form-label">Contact</label>
+                <input type="text" class="form-control" id="contact" disabled
+                    value="No registered services, you can add some on the settings page.">
+            </div>
+            <div class="col-md-8">
+                <label for="biography" class="form-label">Biography</label>
+                <textarea id="biography" name="biography" rows="3" cols="100"
+                    class="form-control">Optimized, responsible, and committed software engineer and a computer science grad student.</textarea>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <label for="inputZip" class="form-label">Links</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputZip" class="form-label">URL</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-light">Cancel</button>
+                <button type="submit" class="btn btn-danger">Save Profile</button>
+            </div>
+        </form>
+    </div>
 </div>

@@ -1,9 +1,11 @@
-.wd-edit-profile {
-    display: flex;
-    justify-content: space-between;
-    /* flex: 3; */
+
+
+.wd-edit-profile{
+    width: 800px;
+    margin-top: 50px;
 }
 
-.wd-edit-profile-secondary {
-    margin: 50px;
+.wd-edit-profile .wd-edit-profile-form i {
+    margin-top: 0;
+    font-size: 150px;
 }

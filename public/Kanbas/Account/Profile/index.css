@@ -1,13 +1,6 @@
-.wd-profile {
-    display: flex;
-    justify-content: space-between;
-    /* flex: 3; */
-}
 
-.wd-profile-secondary {
-    margin: 50px;
-}
-
-.wd-profile-div .wd-profile-icon {
-    font-size: 3.5rem;
+.wd-profile .wd-profile-icon {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 150px;
 }
