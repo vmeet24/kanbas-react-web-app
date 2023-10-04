@@ -1,3 +1,12 @@
+.breadcrumb {
+    margin-left: 20px;
+}
+
+.wd-content-header hr {
+    margin-left: 20px;
+    margin-right: 30px;
+    color: black;
+}
 
 .wd-profile .wd-profile-icon {
     padding-top: 10px;

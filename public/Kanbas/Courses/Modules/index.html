@@ -1,264 +1,157 @@
 <link rel="stylesheet" href="/vendors/bootstrap/css/bootstrap.min.css">
-
-<button>
-    Collapse All
-</button>
-<button>View Progress</button>
-<select>
-    <option>Publish All</option>
-    <option>Publish all items and modules</option>
-    <option>UnPublish</option>
-</select>
-<button>Module</button>
-<div class="wd-assignments-container">
-    <div class="wd-assignment-list">
-        <div class="wd-assignment-heading">
-            <div>
-                <i class="fas fa-ellipsis-v"></i>
-                <i class="fas fa-caret-down"></i>
-                <span>
-                    <strong>
-                        ASSIGNMENTS
-                    </strong>
-                </span>
-            </div>
-            <div class="wd-assignment-heading-secondary">
-                <div>
-                    <span>40% of Total</span>
-                </div>
-                <div>
-                    <i class="fas fa-plus"></i>
-                </div>
-                <div>
-                    <i class="fas fa-ellipsis-v"></i>
-                </div>
-            </div>
-        </div>
-        <div class="list-group">
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
-                    </div>
-                    <div class="wd-assignment-name">
-                        <strong>Week - 0 INTRO</strong>
-                    </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
-                    </div>
-                    <div class="wd-assignment-name">
-                        <strong>Introduction to the course</strong>
-                    </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
-                    </div>
-                    <div class="wd-assignment-name">
-                        <strong> A3 - JS + REACT</strong>
-                    </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
-                    </div>
-                    <div class="wd-assignment-name">
-                        <strong>A4 - STATE + REDUX</strong>
-                    </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
-                    </div>
-                    <div class="wd-assignment-name">
-                        <strong>A5 - NODE + SESSION</strong>
-                    </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-        </div>
+<link rel="stylesheet" href="/Kanbas/Courses/Modules/index.css">
+<link rel="stylesheet" href="/vendors/fontawesome/css/all.css">
+<div class="wd-module-container">
+    <div style="display: flex; flex-direction: row; justify-content: end;">
+        <button class="btn btn-secondary" style="margin-right: 10px;">
+            Collapse All
+        </button>
+        <button class="btn btn-secondary" style="margin-right: 10px;">View Progress</button>
+        <select style="margin-right: 10px;">
+            <option>Publish All</option>
+            <option>Publish all items and modules</option>
+            <option>UnPublish</option>
+        </select>
+        <button class="btn btn-danger" style="margin-right: 10px;">Module</button>
     </div>
-    <div class="wd-assignment-list">
-        <div class="wd-assignment-heading">
-            <div>
-                <i class="fas fa-ellipsis-v"></i>
-                <i class="fas fa-caret-down"></i>
-                <span>
-                    <strong>
-                        QUIZZES
-                    </strong>
-                </span>
-            </div>
-            <div class="wd-assignment-heading-secondary">
-                <div>
-                    <span>10% of Total</span>
-                </div>
-                <div>
-                    <i class="fas fa-plus"></i>
-                </div>
+    <hr>
+    <div class="">
+        <div class="wd-module-list">
+            <div class="wd-module-heading">
                 <div>
                     <i class="fas fa-ellipsis-v"></i>
+                    <i class="fas fa-caret-down"></i>
+                    <span>
+                        <strong>
+                            Week 0 - INTRO
+                        </strong>
+                    </span>
+                </div>
+                <div class="wd-module-heading-secondary">
+                    <div>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="list-group">
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
+            <div class="list-group">
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            LEARNING OBJECTIVES
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <div class="wd-assignment-name">
-                        <strong>A1 - ENV + HTML</strong>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <span class="wd-module-item-child">A1 - ENV + HTML</span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <span class="wd-module-item-child">A1 - ENV + HTML</span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <div class="wd-assignment-name">
-                        <strong>A2 - CSS + BOOTSTRAP</strong>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <span class="wd-module-item-child">A1 - ENV + HTML</span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <span class="wd-module-item-child">A1 - ENV + HTML</span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <div class="wd-assignment-name">
-                        <strong> A3 - JS + REACT</strong>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            READING
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <span class="wd-module-item-child">A1 - ENV + HTML</span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <div class="wd-assignment-name">
-                        <strong>A4 - STATE + REDUX</strong>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <span class="wd-module-item-child">A1 - ENV + HTML</span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
-            <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html"
-                class="list-group-item list-group-item-action">
-                <div class="wd-assignment-item">
-                    <div>
-                        <i class="fas fa-ellipsis-v drag"></i>
-                        <i class="far fa-edit edit"></i>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <span class="wd-module-item-child">A1 - ENV + HTML</span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <div class="wd-assignment-name">
-                        <strong>A5 - NODE + SESSION</strong>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            SLIDES
+                        </div>
+                        <i class="far fa-check-circle check"></i>
                     </div>
-                    <i class="far fa-check-circle check"></i>
-                </div>
-            </a>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <i class="fas fa-link"></i>
+                            <span class="wd-module-item-child-link">
+                                A1 - ENV + HTML
+                            </span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
+                    </div>
+                </a>
+                <a href="/Kanbas/Courses/Assignments/AssignmentEditor/screen.html" class="list-group-item list-group-item-action">
+                    <div class="wd-module-item">
+                        <div>
+                            <i class="fas fa-ellipsis-v drag"></i>
+                            <i class="fas fa-link"></i>
+                            <span class="wd-module-item-child-link">
+                                A1 - ENV + HTML
+                            </span>
+                        </div>
+                        <i class="far fa-check-circle check"></i>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
-<ul>
-    <li>
-        Week - 0 INTRO
-        <ul>
-            <li>LEARNING OBJECTIVES</li>
-            <ul>
-                <li>Introduction to the course</li>
-                <li>Learn what is Web Development</li>
-                <li>Creating a development environment</li>
-                <li>Creating a Web Application</li>
-                <li>Getting started with the 1st assignment</li>
-            </ul>
-            <li>READING</li>
-            <ul>
-                <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                <li>
-                    Full Stack Developer - Chapter 2 - Creating User
-                    <br>
-                    Interfaces With HTML
-                </li>
-            </ul>
-            <li>SLIDES</li>
-            <ul>
-                <li>
-                    <a href="#">
-                        Introduction to Web Development Links to an
-                        <br>
-                        external site.
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Creating an HTTP server with Node.js Links to
-                        <br>
-                        an external site.
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Creating a React Application Links to an external
-                        <br>
-                        site.
-                    </a>
-                </li>
-            </ul>
-        </ul>
-    </li>
-    <li>
-        Week - 1 HTML
-        <ul>
-            <li>LEARNING OBJECTIVES</li>
-            <ul>
-                <li>Learn how to create user interfaces with HTML</li>
-                <li>Keep working on the assignment 1</li>
-                <li>Deploy the assignment to Netlify</li>
-            </ul>
-            <li>READING</li>
-            <ul>
-                <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                <li>
-                    Full Stack Developer - Chapter 2 - Creating User
-                    <br>
-                    Interfaces With HTML
-                </li>
-            </ul>
-        </ul>
-    </li>
-</ul>
