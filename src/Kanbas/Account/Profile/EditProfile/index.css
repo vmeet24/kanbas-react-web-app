@@ -1,0 +1,19 @@
+.breadcrumb {
+    margin-left: 20px;
+}
+
+.wd-content-header hr {
+    margin-left: 20px;
+    margin-right: 30px;
+    color: black;
+}
+
+.wd-edit-profile {
+    width: 800px;
+    margin-top: 50px;
+}
+
+.wd-edit-profile .wd-edit-profile-form i {
+    margin-top: 0;
+    font-size: 150px;
+}

@@ -1,0 +1,71 @@
+.wd-content-header hr {
+    margin-left: 20px;
+    margin-right: 30px;
+    color: black;
+}
+
+.breadcrumb {
+    margin-left: 20px;
+}
+
+.wd-assignments-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.wd-assignment-list {
+    margin-top: 20px;
+}
+
+.wd-assignment-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-assignment-item i {
+    padding: 10px;
+}
+
+.wd-assignment-item .drag {
+    color: black;
+}
+
+.wd-assignment-item .check {
+    color: green;
+}
+
+
+.wd-assignment-item .edit {
+    color: green;
+}
+
+.wd-assignment-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-assignment-heading {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: whitesmoke;
+    height: 40px;
+}
+
+.wd-assignment-heading-secondary {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wd-assignment-heading-secondary i {
+    margin-right: 10px;
+}
+
+.wd-assignment-heading-secondary span {
+    border-radius: 20px;
+    padding: 2px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}

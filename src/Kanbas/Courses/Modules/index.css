@@ -1,0 +1,65 @@
+.wd-module-list {
+    margin-top: 20px;
+}
+
+.wd-module-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-module-item-child {
+    margin-left: 50px;
+}
+
+.wd-module-item-child-link {
+    margin-left: 10px;
+    color: red;
+}
+
+
+.wd-module-item i {
+    padding: 10px;
+}
+
+.wd-module-item .drag {
+    color: black;
+}
+
+.wd-module-item .check {
+    color: green;
+}
+
+
+.wd-module-item .edit {
+    color: green;
+}
+
+
+.wd-module-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.wd-module-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-module-heading {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: whitesmoke;
+    height: 40px;
+}
+
+.wd-module-heading-secondary {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wd-module-heading-secondary i {
+    margin-right: 10px;
+}

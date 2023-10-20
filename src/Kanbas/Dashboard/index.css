@@ -1,0 +1,17 @@
+.wd-dashboard-grid {
+    margin: 0px;
+}
+
+.wd-dashboard-grid .col {
+    width: 300px;
+}
+
+.breadcrumb {
+    margin-left: 20px;
+}
+
+.wd-content-header hr {
+    margin-left: 20px;
+    margin-right: 30px;
+    color: black;
+}

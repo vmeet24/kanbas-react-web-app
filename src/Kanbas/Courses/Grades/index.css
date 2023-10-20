@@ -1,0 +1,39 @@
+.grades .searchbar {
+    margin: 20px 0px 20px 0px;
+}
+
+.grades .grades_control {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.grades .grades_control .dropdown,
+.grades .grades_control .btn {
+    margin-right: 10px;
+}
+
+.grades .result .result-table {
+    border: 1px solid #ccc;
+}
+
+.grades .result .result-table thead tr th {
+    background: #eeeeee;
+}
+
+.grades .result .result-table input {
+    text-align: center;
+}
+
+.grades-first-col {
+    color: red !important;
+}
+
+.breadcrumb {
+    margin-left: 20px;
+}
+
+.wd-content-header hr {
+    margin-left: 20px;
+    margin-right: 30px;
+    color: black;
+}

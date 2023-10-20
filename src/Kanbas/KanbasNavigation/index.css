@@ -1,0 +1,42 @@
+.wd-kanbas-navigator {
+  background-color: black;
+  margin-right: 5px;
+}
+
+.wd-kanbas-navigator a.list-group-item {
+  border: none;
+  border-radius: 0px;
+  font-size: 0.8em;
+  background-color: black;
+  max-height: 100%;
+  color: white;
+  width: 80px;
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.wd-kanbas-navigator a.list-group-item.active {
+  color: red;
+  background-color: white;
+}
+
+.wd-kanbas-navigator a.list-group-item.active i {
+  color: grey;
+}
+
+.wd-kanbas-navigator i {
+  color: red;
+}
+
+.wd-kanbas-navigator h1 {
+  color: red;
+  background-color: black;
+  padding: 7px;
+  margin-bottom: none;
+  font-family: 'Times New Roman', Times, serif;
+  text-indent: 10px;
+  font-size: 4rem;
+}
