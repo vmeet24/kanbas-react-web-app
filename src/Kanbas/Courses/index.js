@@ -1,23 +1,23 @@
-import db from "../Databases";
 import { Navigate, Route, Routes, useParams } from "react-router-dom";
 import CourseNavigation from "./CourseNavigation";
 import Home from "./Home";
 import Modules from "./Modules";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
-function Courses() {
+function Courses({ courses }) {
     const { courseId } = useParams();
-    const course = db.courses.find((course) => course._id === courseId);
+    const course = courses.find((course) => course._id === courseId);
     return (
         <div>
             <h1>Course {course.name}</h1>
+            <br />
             <CourseNavigation />
             <div>
                 <div
                     className="overflow-y-scroll position-fixed bottom-0 end-0"
                     style={{
-                        left: "320px",
-                        top: "50px",
+                        left: "300px",
+                        top: "150px",
                     }}
                 >
                     <Routes>
