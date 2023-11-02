@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import db from "../../Databases";
+import db from "../../Database";
 import { FaEllipsisV } from "react-icons/fa";
 import { FiEdit } from "react-icons/fi";
 import { AiFillCheckCircle } from "react-icons/ai";

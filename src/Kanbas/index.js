@@ -5,7 +5,7 @@ import Courses from "./Courses";
 // import Account from "./Account";
 import Dashboard from "./Dashboard";
 import Nav from "../Nav";
-import db from "./Databases";
+import db from "./Database";
 import { useState } from "react";
 import store from "./store";
 import { Provider } from "react-redux";

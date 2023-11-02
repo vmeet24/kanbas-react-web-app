@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import db from "../../Databases";
+import db from "../../Database";
 
 
 const initialState = {
