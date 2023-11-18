@@ -35,7 +35,7 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
 
                 <div className="row row-cols-1 row-cols-md-3 g-4 wd-dashboard-grid ">
                     {courses.map((course) => (
-                        <Link key={course._id} to={`/Kanbas/Courses/${course._id}`}>
+                        <Link key={course._id["$oid"]} to={`/Kanbas/Courses/${course._id["$oid"]}`}>
 
                             <div className="col">
                                 <div className="card h-100">
