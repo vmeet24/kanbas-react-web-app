@@ -8,10 +8,9 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 function Courses() {
     const { courseId } = useParams();
-    const URL = "http://localhost:4000/api/courses";
+    const URL = "https://kanbas-node-server-app-vu1o.onrender.com/api/courses";
     const [course, setCourse] = useState({});
     const findCourseById = async (courseId) => {
-        console.log(courseId);
         const response = await axios.get(
             `${URL}/${courseId}`
         );
