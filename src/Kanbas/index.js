@@ -3,6 +3,10 @@ import axios from "axios";
 import KanbasNavigation from "./KanbasNavigation";
 import Courses from "./Courses";
 // import Account from "./Account";
+import Signin from "./users/signin";
+import Signup from "./users/signup";
+import Account from "./users/account";
+import UserTable from "./users/table";
 import Dashboard from "./Dashboard";
 import Nav from "../Nav";
 import { useState, useEffect } from "react";
@@ -76,6 +80,11 @@ function Kanbas() {
                         } />
                         <Route path="Courses/:courseId/*" element={<Courses courses={courses} />} />
                         {/* <Route path="Calendar" element={<h1>Calendar</h1>} /> */}
+                        <Route path="/SignIn" element={<Signin />} />
+                        <Route path="/SignUp" element={<Signup />} />
+                        <Route path="/Account" element={<Account />} />
+                        <Route path="/Account/:id" element={<Account />} />
+                        <Route path="/Account/admin/users" element={<UserTable />} />
                     </Routes>
                 </div>
             </div>
